@@ -25,7 +25,7 @@ Here's how the CEILING function works:
 
 The **FLOOR** function is used to round a number *"down"* to the nearest multiple of a specified significance or increment. It's a mathematical function that can be particularly useful when you want to ensure that a value is always rounded up to the nearest desired level or step.
 
-- *Syntax:* =CEILING(number, significance)
+- *Syntax:* =FLOOR(number, significance)
 
     - *"number"*: This is the numeric value that you want to round up. 
 
@@ -49,11 +49,13 @@ The EVEN function takes a single argument, which is the number you want to round
 ![EVEN](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/05ac8c27-bbae-4bda-badd-933592e2ac3f)
 
 The **ODD** function is used to round a number up to the nearest odd integer. 
-- *Syntax:* =EVEN(number)
+- *Syntax:* =ODD(number)
 
     - *"number"*: This is the numeric value you want to round up to the nearest even integer.
 
-The EVEN function takes a single argument, which is the number you want to round up to the nearest even integer. When you use the EVEN function, it rounds the number up to the next even integer. If the number is already an even integer, it remains unchanged.
+The ODD function takes a single argument, which is the number you want to round up to the nearest odd integer. When you use the ODD function, it rounds the number up to the next odd integer. If the number is already an odd integer, it remains unchanged.
+
+![ODD](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/10dc07fc-570c-4ac0-a6de-795e3657b71c)
 
 
 # Logical Functions
