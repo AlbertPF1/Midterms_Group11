@@ -8,6 +8,7 @@ The **LENGTH** function is used to determine the length of a text string.
 
 - *Syntax:* =LEN(text)
 
+
 The **TRIM** function is used to remove extra spaces from a text string, leaving only a single space between words. 
 
 - *Syntax:* =TRIM(text)
@@ -28,23 +29,25 @@ The **PROPER** function is used to convert the first letter of each word in a te
 
 The **ISTEXT** function is used to check if a given value is a text data type.
 
-- *Syntax:* =ISTEXT(text)
+- *Syntax:* =ISTEXT(value)
+
+![image](https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2)
 
 The **ISNONTEXT** function helps to check if a cell contains text or not.
 
-- *Syntax:* =ISNONTEXT(text)
+- *Syntax:* =ISNONTEXT(value)
 
 The **ISNUMBER** function is used to check whether a given value is a number.
 
-- *Syntax:* =ISNUMBER(text)
+- *Syntax:* =ISNUMBER(value)
 
 The **ISBLANK** function is used to check whether a specified cell is empty.
 
-- *Syntax:* =ISBLANK(text)
+- *Syntax:* =ISBLANK(value)
 
 The **ISLOGICAL** function is used to checks whether a given value is a logical value or not.
 
-- *Syntax:* =ISLOGICAL(text)
+- *Syntax:* =ISLOGICAL(value)
 
 # Math Functions
 The **CEILING** function is used to round a number *"up"* to the nearest multiple of a specified significance or increment. It's a mathematical function that can be particularly useful when you want to ensure that a value is always rounded up to the nearest desired level or step.
