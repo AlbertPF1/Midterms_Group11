@@ -59,7 +59,11 @@ The ODD function takes a single argument, which is the number you want to round 
 
 
 # Logical Functions
-
+## IF Function
+## ISBLANK Function
+## NOT Function
+## SUMIF Function
+## COUNTIF Function
 # Information Functions
 ## ISTEXT Function
 - *Description:* The ISTEXT function in Excel is used to check if a given value is text (including numbers entered as text). It returns TRUE if the value is text and FALSE if it's not.
