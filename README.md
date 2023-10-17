@@ -4,8 +4,9 @@
 **Authors**: _Arellano, Justin Joe M., Dela Peña, Ralph Nathanael A. and Fajardo, Lenard Albert P._
 
 # TEXT FUNCTION
+The **LENGTH** function is used to determine the length of a text string. It returns the number of characters in a text string, including letters, numbers, spaces, and punctuation.
 
-
+- *Syntax:* =LEN(
 # Math Functions
 The **CEILING** function is used to round a number *"up"* to the nearest multiple of a specified significance or increment. It's a mathematical function that can be particularly useful when you want to ensure that a value is always rounded up to the nearest desired level or step.
 
