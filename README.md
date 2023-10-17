@@ -3,10 +3,49 @@
 
 **Authors**: _Arellano, Justin Joe M., Dela Peña, Ralph Nathanael A. and Fajardo, Lenard Albert P._
 
-# TEXT FUNCTION
-The **LENGTH** function is used to determine the length of a text string. It returns the number of characters in a text string, including letters, numbers, spaces, and punctuation.
+# Text Function
+The **LENGTH** function is used to determine the length of a text string.
 
-- *Syntax:* =LEN(
+- *Syntax:* =LEN(text)
+
+The **TRIM** function is used to remove extra spaces from a text string, leaving only a single space between words. 
+
+- *Syntax:* =TRIM(text)
+
+The **UPPER** function is used to convert all the letters in a text string to uppercase. 
+
+- *Syntax:* =UPPER(text)
+
+The **LOWER** function is used to convert all the letters in a text string to lowercase. 
+
+- *Syntax:* =LOWER(text)
+
+The **PROPER** function is used to convert the first letter of each word in a text string to uppercase and all other letters to lowercase.
+
+- *Syntax:* =PROPER(text)
+  
+# Information Functions
+
+The **ISTEXT** function is used to check if a given value is a text data type.
+
+- *Syntax:* =ISTEXT(text)
+
+The **ISNONTEXT** function helps to check if a cell contains text or not.
+
+- *Syntax:* =ISNONTEXT(text)
+
+The **ISNUMBER** function is used to check whether a given value is a number.
+
+- *Syntax:* =ISNUMBER(text)
+
+The **ISBLANK** function is used to check whether a specified cell is empty.
+
+- *Syntax:* =ISBLANK(text)
+
+The **ISLOGICAL** function is used to checks whether a given value is a logical value or not.
+
+- *Syntax:* =ISLOGICAL(text)
+
 # Math Functions
 The **CEILING** function is used to round a number *"up"* to the nearest multiple of a specified significance or increment. It's a mathematical function that can be particularly useful when you want to ensure that a value is always rounded up to the nearest desired level or step.
 
