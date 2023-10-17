@@ -6,8 +6,51 @@
 
 **Authors**: _Arellano, Justin Joe M., Dela Peña, Ralph Nathanael A. and Fajardo, Lenard Albert P._
 
-# TEXT FUNCTION
+# Text Function
+The **LENGTH** function is used to determine the length of a text string.
 
+- *Syntax:* =LEN(text)
+
+
+The **TRIM** function is used to remove extra spaces from a text string, leaving only a single space between words. 
+
+- *Syntax:* =TRIM(text)
+
+The **UPPER** function is used to convert all the letters in a text string to uppercase. 
+
+- *Syntax:* =UPPER(text)
+
+The **LOWER** function is used to convert all the letters in a text string to lowercase. 
+
+- *Syntax:* =LOWER(text)
+
+The **PROPER** function is used to convert the first letter of each word in a text string to uppercase and all other letters to lowercase.
+
+- *Syntax:* =PROPER(text)
+  
+# Information Functions
+
+The **ISTEXT** function is used to check if a given value is a text data type.
+
+- *Syntax:* =ISTEXT(value)
+
+![image](https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2)
+
+The **ISNONTEXT** function helps to check if a cell contains text or not.
+
+- *Syntax:* =ISNONTEXT(value)
+
+The **ISNUMBER** function is used to check whether a given value is a number.
+
+- *Syntax:* =ISNUMBER(value)
+
+The **ISBLANK** function is used to check whether a specified cell is empty.
+
+- *Syntax:* =ISBLANK(value)
+
+The **ISLOGICAL** function is used to checks whether a given value is a logical value or not.
+
+- *Syntax:* =ISLOGICAL(value)
 
 # Math Functions
 ## CEILING Function
