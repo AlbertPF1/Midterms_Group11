@@ -77,7 +77,11 @@ Here's a breakdown of how the ROUND function works:
 ![ROUND](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/d5f08788-f3d6-4afa-abfa-41f27fa937f8)
 
 # Logical Functions
-
+## IF Function
+## ISBLANK Function
+## NOT Function
+## SUMIF Function
+## COUNTIF Function
 # Information Functions
 ## ISTEXT Function
 - *Description:* The ISTEXT function in Excel is used to check if a given value is text (including numbers entered as text). It returns TRUE if the value is text and FALSE if it's not.
