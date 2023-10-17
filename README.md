@@ -51,32 +51,6 @@ The **PROPER** function is used to convert the first letter of each word in a te
 <p align="center">
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/a57cefd2-301d-4af9-b469-ab2529119014">
 </p>
-    
-# Information Functions
-## ISTEXT Function
-The **ISTEXT** function is used to check if a given value is a text data type.
-
-- *Syntax:* =ISTEXT(value)
-<p align="center">
-  <img src="https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2">
-</p>
-
-
-The **ISNONTEXT** function helps to check if a cell contains text or not.
-
-- *Syntax:* =ISNONTEXT(value)
-
-The **ISNUMBER** function is used to check whether a given value is a number.
-
-- *Syntax:* =ISNUMBER(value)
-
-The **ISBLANK** function is used to check whether a specified cell is empty.
-
-- *Syntax:* =ISBLANK(value)
-
-The **ISLOGICAL** function is used to checks whether a given value is a logical value or not.
-
-- *Syntax:* =ISLOGICAL(value)
 
 # Math Functions
 ## CEILING Function
@@ -232,33 +206,49 @@ The **COUNTIF** function is used to count the number of cells within a specified
 
       
 # Information Functions
-## ISTEXT FUNCTION
+## ISTEXT Function
 The **ISTEXT** function is used to check if a given value is a text data type.
 
 - *Syntax:* =ISTEXT(value)
-
-![image](https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2)
+<p align="center">
+  <img src="https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2">
+</p>
 
 ## ISNONTEXT Function
 The **ISNONTEXT** function helps to check if a cell contains text or not.
 
 - *Syntax:* =ISNONTEXT(value)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c22002c8-d5f1-41f6-ad01-7b725fa061cd">
+</p>
+
 ## ISNUMBER Function
 The **ISNUMBER** function is used to check whether a given value is a number.
 
 - *Syntax:* =ISNUMBER(value)
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/a6107dfb-3896-4498-bf97-ad895e808b15">
+</p>
 
 ## ISBLANK Function
 The **ISBLANK** function is used to check whether a specified cell is empty.
 
 - *Syntax:* =ISBLANK(value)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/b1d8b3b5-db8b-4375-89c4-6fb49c41d93e">
+</p>
+
 ## ISLOGICAL Function
 The **ISLOGICAL** function is used to checks whether a given value is a logical value or not.
 
 - *Syntax:* =ISLOGICAL(value)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/32929dba-29a6-4dd6-9d9c-0de911f311e6">
+</p>
 
 # Date and Time Functions
 
