@@ -33,8 +33,10 @@ The **PROPER** function is used to convert the first letter of each word in a te
 The **ISTEXT** function is used to check if a given value is a text data type.
 
 - *Syntax:* =ISTEXT(value)
+<p align="center">
+  <img src="https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2">
+</p>
 
-![image](https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2)
 
 The **ISNONTEXT** function helps to check if a cell contains text or not.
 
@@ -88,7 +90,10 @@ Here's how the FLOOR function works:
 2. It then rounds down to the nearest integer.
 3. Finally, it multiplies the rounded-down integer by the "significance" to give you the rounded-down result.
 
-![floor](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/6b453df3-4c1c-47c3-901f-de7ec3c36f48)
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/6b453df3-4c1c-47c3-901f-de7ec3c36f48">
+</p>
+
 
 ## EVEN Function
 The **EVEN** function is used to round a number up to the nearest even integer. 
@@ -98,7 +103,9 @@ The **EVEN** function is used to round a number up to the nearest even integer.
 
 The EVEN function takes a single argument, which is the number you want to round up to the nearest even integer. When you use the EVEN function, it rounds the number up to the next even integer. If the number is already an even integer, it remains unchanged.
 
-![EVEN](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/05ac8c27-bbae-4bda-badd-933592e2ac3f)
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/05ac8c27-bbae-4bda-badd-933592e2ac3f">
+</p>
 
 
 ## ODD Function
@@ -109,7 +116,9 @@ The **ODD** function is used to round a number up to the nearest odd integer.
 
 The ODD function takes a single argument, which is the number you want to round up to the nearest odd integer. When you use the ODD function, it rounds the number up to the next odd integer. If the number is already an odd integer, it remains unchanged.
 
-![ODD](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/10dc07fc-570c-4ac0-a6de-795e3657b71c)
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/10dc07fc-570c-4ac0-a6de-795e3657b71c">
+</p>
 
 
 ## ROUND Function
@@ -129,57 +138,107 @@ Here's a breakdown of how the ROUND function works:
     - If num_digits is zero, the function rounds to the nearest whole number.
 
     - If num_digits is a negative integer, the function rounds to the left of the decimal point. For example, if num_digits is -1, the function rounds to the nearest ten, making the number end in zero.
-   
-![ROUND](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/d5f08788-f3d6-4afa-abfa-41f27fa937f8)
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/d5f08788-f3d6-4afa-abfa-41f27fa937f8">
+</p>
 
 # Logical Functions
 ## IF Function
+The **IF** function in Excel is one of the most popular and useful functions in the program. It allows you to make a logical comparison between a value and what you expect and return a different result depending on whether the comparison is true or false.
+- *Syntax:* =IF(logical_test, value_if_true, value_if_false)
 
+    - *"Logical_test"*: This is the comparison that you want to perform. It can be any expression that can be evaluated to TRUE or FALSE. For example, you could compare two numbers, two text strings, or a cell value to a constant.
+
+    - *"Value_if_true"*: This is the value that you want to return if the logical test evaluates to TRUE.
+ 
+    - *"Value_if_false"*: This is the value that you want to return if the logical test evaluates to FALSE.
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/144073436/d243231c-22c0-440e-a696-500e01cc6cf1">
+</p>
+
+  
 ## ISBLANK Function
+The **ISBLANK** function is a logical function that checks whether a specified cell is empty or not. It returns TRUE if the cell is empty and FALSE if the cell contains any value. This includes spaces, formulas, or empty text ("").
+- *Syntax:* =ISBLANK(reference)
+
+    - *"reference"*: The cell or range of cells you want to check. If the reference is empty, the function returns TRUE; otherwise, it returns FALSE.
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/144073436/45eed2b1-cea7-4a79-8897-8a8541c897a7">
+</p>
+
 
 ## NOT Function
+The **NOT** function is a logical function that reverses the logical value of its argument. It is used to negate a logical value, meaning it converts TRUE to FALSE and FALSE to TRUE
+- *Syntax:* =NOT(logical)
+
+    - *"logical"*: The value or expression that you want to negate. It can be a logical value, a comparison, or any other expression that results in a logical value (TRUE or FALSE)
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/144073436/f8d821db-2e49-4400-86a0-47cedc42b30f">
+</p>
+
 
 ## SUMIF Function
+The **SUMIF** function in Excel adds all of the values in a range that meet a single criterion. The criterion can be a number, a text string, a date, or a logical expression.
+- *Syntax:* =SUMIF(range, criteria, sum_range)
 
+    - *"sum_range"*: The range of cells that you want to sum.
+      
+    - *"criteria"*: The criterion that you want to use to filter the sum_range.
+      
+    - *"sum_range_if_true"*: The range of cells that you want to sum if the criterion is met.
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/144073436/36bd2780-0cc1-4b06-90d5-8bdc3cd998ce">
+</p>
+
+      
 ## COUNTIF Function
+The **COUNTIF** function is used to count the number of cells within a specified range that meet a given condition or criteria. It allows you to count cells based on a single condition.
+- *Syntax:* =COUNTIF(range, criteria)
 
+    - *"range"*: This is the range of cells that you want to apply the criteria against. 
+      
+    - *"criteria"*: This is the condition that defines which cells in the range should be counted.
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/144073436/708920f4-405a-4d59-a256-1643ad3f1dda">
+</p>
+
+      
 # Information Functions
-## ISTEXT Function
-- *Description:* The ISTEXT function in Excel is used to check if a given value is text (including numbers entered as text). It returns TRUE if the value is text and FALSE if it's not.
+## ISTEXT FUNCTION
+The **ISTEXT** function is used to check if a given value is a text data type.
 
-- *Usage:*
-  - Basic syntax: =ISTEXT(value)
-  - Example: =ISTEXT(A1) will return TRUE if the content of cell A1 is text, and FALSE if it's not.
-  
+- *Syntax:* =ISTEXT(value)
+
+![image](https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2)
+
+## ISNONTEXT Function
+The **ISNONTEXT** function helps to check if a cell contains text or not.
+
+- *Syntax:* =ISNONTEXT(value)
+
 ## ISNUMBER Function
-- *Description:* The ISNUMBER function is used to check if a given value is a numeric value (including numbers, dates, and times). It returns TRUE if the value is a number and FALSE if it's not.
+The **ISNUMBER** function is used to check whether a given value is a number.
 
-- *Usage:*
-  - Basic syntax: =ISNUMBER(value)
-  - Example: =ISNUMBER(B2) will return TRUE if the content of cell B2 is a number, and FALSE if it's not.
+- *Syntax:* =ISNUMBER(value)
 
-## TYPE Function
-- *Description:* The TYPE function is used to determine the type of data in a cell. It returns an integer that corresponds to the type of data (e.g., 1 for numbers, 2 for text, 4 for logical values, etc.).
+## ISBLANK Function
+The **ISBLANK** function is used to check whether a specified cell is empty.
 
-- *Usage:*
-  - Basic syntax: =TYPE(value)
-  - Example: =TYPE(C3) will return 2 if the content of cell C3 is text.
+- *Syntax:* =ISBLANK(value)
 
-## ISODD Function
-- *Description:* The ISODD function checks if a given number is an odd integer. It returns TRUE if the number is odd and FALSE if it's not.
+## ISLOGICAL Function
+The **ISLOGICAL** function is used to checks whether a given value is a logical value or not.
 
-- *Usage:*
-  - Basic syntax: =ISODD(value)
-  - Example: =ISODD(D4) will return TRUE if the content of cell D4 is an odd number, and FALSE if it's not.
+- *Syntax:* =ISLOGICAL(value)
 
-## ISEVEN Function
-- *Description:* The ISEVEN function checks if a given number is an even integer. It returns TRUE if the number is even and FALSE if it's not.
 
-- *Usage:*
-  - Basic syntax: =ISEVEN(value)
-  - Example: =ISEVEN(E5) will return TRUE if the content of cell E5 is an even number, and FALSE if it's not.
- 
 # Date and Time Functions
+
+## NOW AND TODAY FUNCTION
 The **"NOW" and "TODAY"** function are used to display the current date and time or just the current date, respectively. These functions are useful when you need to insert the current date and time into a cell or use them in calculations.
 
 - *Syntax:* =NOW() , =TODAY()
@@ -194,6 +253,7 @@ Both the NOW and TODAY functions can be particularly useful in various scenarios
 
 ![NOW   TODAY](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/2497ce68-e4cb-4596-b64a-13ebadf57bb2)
 
+## DAY, MONTH, AND YEAR FUNCTION
 The **"DAY," "MONTH," and "YEAR"** function are used to extract the day, month, and year components, respectively, from a date value. These functions are helpful when you have a date in a cell and you want to extract specific parts of that date. 
 
 - *Syntax:* =DAY(date) , =MONTH(date), =YEAR(date)
@@ -205,6 +265,7 @@ These functions are particularly useful for various data analysis and reporting 
 
 ![1D](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/06314533-0288-49c1-9edb-2cb6c08b99d9)![2D](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/fabd8aea-6e7b-421c-8ab2-bd68ea57ae2f)
 
+## WEEKNUM FUNCTION
 The **WEEKNUM** function is used to determine the week number for a specified date. The WEEKNUM function returns the week number within the year for a given date.
 
 - *Syntax:* =WEEKNUM(date, [return_type])
@@ -221,6 +282,8 @@ The WEEKNUM function is useful in various business and project management scenar
 
 ![1A](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/1dd000af-3730-4c80-b285-b7a8bbba220e)![2A](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/2f7eca8a-8904-421d-af20-417e8ccb5d09)
 
+
+## EDATE FUNCTION
 The **EDATE** function  is used to calculate the date that is a specified number of months before or after a given date. The function is particularly useful when you need to work with dates in financial or project management calculations.
 - *Syntax:* =EDATE(start_date, months)
 
@@ -232,6 +295,8 @@ The EDATE function is versatile and is commonly used in various financial calcul
 
 ![1B](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/48c351b4-419b-45ab-872e-0e4f50d51b24)![2B](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/0f67d394-bc93-43df-8dc0-3dc4263ca1df)
 
+
+## EOMONTH FUNCTION
 The **EOMONTH** function  is used to calculate the last day of the month for a specified number of months before or after a given date. The EOMONTH function is helpful when you need to find the end of a specific month, which can be particularly useful in financial or project management calculations.
 - *Syntax:* =EOMONTH(start_date, months)
 
@@ -244,5 +309,14 @@ The EOMONTH function is a valuable tool for various date-related calculations, e
 ![1B](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/8a2862fc-e63d-4427-8b80-bd4f2fb8c3b1)![1E](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/1dde9168-3093-407c-a468-8e6a86afe289)
 
 
-
 # Lookup Functions
+## LOOKUP Function
+
+## MATCH Function
+
+## VLOOKUP Function
+
+## COLUMNS Function
+
+## ADDRESS Function
+
