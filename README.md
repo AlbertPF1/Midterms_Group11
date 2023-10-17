@@ -10,6 +10,7 @@
 
 
 # Math Functions
+## CEILING Function
 The **CEILING** function is used to round a number *"up"* to the nearest multiple of a specified significance or increment. It's a mathematical function that can be particularly useful when you want to ensure that a value is always rounded up to the nearest desired level or step.
 
 - *Syntax:* =CEILING(number, significance)
@@ -29,6 +30,7 @@ Here's how the CEILING function works:
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c8a89dba-3bb8-422b-a785-f5cdd20713d7">
 </p>
 
+## FLOOR Function
 The **FLOOR** function is used to round a number *"down"* to the nearest multiple of a specified significance or increment. It's a mathematical function that can be particularly useful when you want to ensure that a value is always rounded up to the nearest desired level or step.
 
 - *Syntax:* =FLOOR(number, significance)
@@ -45,6 +47,7 @@ Here's how the FLOOR function works:
 
 ![floor](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/6b453df3-4c1c-47c3-901f-de7ec3c36f48)
 
+## EVEN Function
 The **EVEN** function is used to round a number up to the nearest even integer. 
 - *Syntax:* =EVEN(number)
 
@@ -54,6 +57,8 @@ The EVEN function takes a single argument, which is the number you want to round
 
 ![EVEN](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/05ac8c27-bbae-4bda-badd-933592e2ac3f)
 
+
+## ODD Function
 The **ODD** function is used to round a number up to the nearest odd integer. 
 - *Syntax:* =ODD(number)
 
@@ -63,6 +68,8 @@ The ODD function takes a single argument, which is the number you want to round 
 
 ![ODD](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/10dc07fc-570c-4ac0-a6de-795e3657b71c)
 
+
+## ROUND Function
 The **ROUND** function is used to round a number to a specified number of decimal places. The ROUND function helps you control the precision of numerical values in your spreadsheets.
 - *Syntax:* =ROUND(number, num_digits)
 
@@ -84,9 +91,13 @@ Here's a breakdown of how the ROUND function works:
 
 # Logical Functions
 ## IF Function
+
 ## ISBLANK Function
+
 ## NOT Function
+
 ## SUMIF Function
+
 ## COUNTIF Function
 
 # Information Functions
