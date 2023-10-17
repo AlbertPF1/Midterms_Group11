@@ -57,6 +57,24 @@ The ODD function takes a single argument, which is the number you want to round 
 
 ![ODD](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/10dc07fc-570c-4ac0-a6de-795e3657b71c)
 
+The **ROUND** function is used to round a number to a specified number of decimal places. The ROUND function helps you control the precision of numerical values in your spreadsheets.
+- *Syntax:* =ROUND(number, num_digits)
+
+    - *"number"*: This is the numeric value you want to round.
+
+    - *"num_digits    "*: This is the number of decimal places to which you want to round the number.
+
+Here's a breakdown of how the ROUND function works:
+
+1. "number": This is the value you want to round. It can be a cell reference, a constant, or a formula that results in a numeric value.
+2. "num_digits": This argument specifies the number of decimal places to which you want to round the number. It can be a positive or negative integer.
+    - If num_digits is a positive integer, the function rounds the number to that many decimal places. For example, if num_digits is 2, the function will round to two decimal places.
+
+    - If num_digits is zero, the function rounds to the nearest whole number.
+
+    - If num_digits is a negative integer, the function rounds to the left of the decimal point. For example, if num_digits is -1, the function rounds to the nearest ten, making the number end in zero.
+   
+![ROUND](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/d5f08788-f3d6-4afa-abfa-41f27fa937f8)
 
 # Logical Functions
 
