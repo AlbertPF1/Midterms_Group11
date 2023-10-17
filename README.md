@@ -7,52 +7,50 @@
 **Authors**: _Arellano, Justin Joe M., Dela Peña, Ralph Nathanael A. and Fajardo, Lenard Albert P._
 
 # Text Function
+## LENGTH Function
 The **LENGTH** function is used to determine the length of a text string.
 
 - *Syntax:* =LEN(text)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/40fe013e-5d29-4a5e-993b-28cb6de5a190">
+</p>
 
+## TRIM Function
 The **TRIM** function is used to remove extra spaces from a text string, leaving only a single space between words. 
 
 - *Syntax:* =TRIM(text)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/92311741-e1ad-45b4-b214-f807ae72c4d4">
+</p>
+
+## UPPER Function
 The **UPPER** function is used to convert all the letters in a text string to uppercase. 
 
 - *Syntax:* =UPPER(text)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c4367cbb-9730-4115-9634-4f5d869d364a">
+</p>
+
+## LOWER Function
 The **LOWER** function is used to convert all the letters in a text string to lowercase. 
 
 - *Syntax:* =LOWER(text)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/a98ea8a6-f2ca-4ad3-9f7c-b159b0ac73f1">
+</p>
+
+## PROPER Function
 The **PROPER** function is used to convert the first letter of each word in a text string to uppercase and all other letters to lowercase.
 
 - *Syntax:* =PROPER(text)
-  
-# Information Functions
 
-The **ISTEXT** function is used to check if a given value is a text data type.
-
-- *Syntax:* =ISTEXT(value)
 <p align="center">
-  <img src="https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/a57cefd2-301d-4af9-b469-ab2529119014">
 </p>
-
-
-The **ISNONTEXT** function helps to check if a cell contains text or not.
-
-- *Syntax:* =ISNONTEXT(value)
-
-The **ISNUMBER** function is used to check whether a given value is a number.
-
-- *Syntax:* =ISNUMBER(value)
-
-The **ISBLANK** function is used to check whether a specified cell is empty.
-
-- *Syntax:* =ISBLANK(value)
-
-The **ISLOGICAL** function is used to checks whether a given value is a logical value or not.
-
-- *Syntax:* =ISLOGICAL(value)
 
 # Math Functions
 ## CEILING Function
@@ -208,33 +206,49 @@ The **COUNTIF** function is used to count the number of cells within a specified
 
       
 # Information Functions
-## ISTEXT FUNCTION
+## ISTEXT Function
 The **ISTEXT** function is used to check if a given value is a text data type.
 
 - *Syntax:* =ISTEXT(value)
-
-![image](https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2)
+<p align="center">
+  <img src="https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2">
+</p>
 
 ## ISNONTEXT Function
 The **ISNONTEXT** function helps to check if a cell contains text or not.
 
 - *Syntax:* =ISNONTEXT(value)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c22002c8-d5f1-41f6-ad01-7b725fa061cd">
+</p>
+
 ## ISNUMBER Function
 The **ISNUMBER** function is used to check whether a given value is a number.
 
 - *Syntax:* =ISNUMBER(value)
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/a6107dfb-3896-4498-bf97-ad895e808b15">
+</p>
 
 ## ISBLANK Function
 The **ISBLANK** function is used to check whether a specified cell is empty.
 
 - *Syntax:* =ISBLANK(value)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/b1d8b3b5-db8b-4375-89c4-6fb49c41d93e">
+</p>
+
 ## ISLOGICAL Function
 The **ISLOGICAL** function is used to checks whether a given value is a logical value or not.
 
 - *Syntax:* =ISLOGICAL(value)
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/32929dba-29a6-4dd6-9d9c-0de911f311e6">
+</p>
 
 # Date and Time Functions
 
@@ -251,7 +265,9 @@ The TODAY function is often used to track dates or for date-related calculations
 
 Both the NOW and TODAY functions can be particularly useful in various scenarios, including record-keeping, project management, and data analysis, where tracking or referencing the current date and time is essential.
 
-![NOW   TODAY](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/2497ce68-e4cb-4596-b64a-13ebadf57bb2)
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/2497ce68-e4cb-4596-b64a-13ebadf57bb2">
+</p>
 
 ## DAY, MONTH, AND YEAR FUNCTION
 The **"DAY," "MONTH," and "YEAR"** function are used to extract the day, month, and year components, respectively, from a date value. These functions are helpful when you have a date in a cell and you want to extract specific parts of that date. 
@@ -263,7 +279,9 @@ The "DAY" function is used to extract the day component from a date. The "MONTH"
 
 These functions are particularly useful for various data analysis and reporting tasks where you have a date field, and you want to perform calculations or create reports based on the individual components of the date, such as day, month, or year.
 
-![1D](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/06314533-0288-49c1-9edb-2cb6c08b99d9)![2D](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/fabd8aea-6e7b-421c-8ab2-bd68ea57ae2f)
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/432cecfd-7dd3-4fa5-bff9-e82c7e1fbfbe">
+</p>
 
 ## WEEKNUM FUNCTION
 The **WEEKNUM** function is used to determine the week number for a specified date. The WEEKNUM function returns the week number within the year for a given date.
@@ -280,8 +298,9 @@ The **WEEKNUM** function is used to determine the week number for a specified da
 
 The WEEKNUM function is useful in various business and project management scenarios where you need to track tasks, deadlines, or events by week number. It allows you to quickly categorize and organize data based on the week in the year.
 
-![1A](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/1dd000af-3730-4c80-b285-b7a8bbba220e)![2A](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/2f7eca8a-8904-421d-af20-417e8ccb5d09)
-
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/da0065af-c72f-42db-a4dc-973aa1ab6688">
+</p>
 
 ## EDATE FUNCTION
 The **EDATE** function  is used to calculate the date that is a specified number of months before or after a given date. The function is particularly useful when you need to work with dates in financial or project management calculations.
@@ -293,8 +312,9 @@ The **EDATE** function  is used to calculate the date that is a specified number
 
 The EDATE function is versatile and is commonly used in various financial calculations, project planning, and scheduling tasks. It allows you to project or calculate future or past dates based on a starting date and the desired number of months.
 
-![1B](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/48c351b4-419b-45ab-872e-0e4f50d51b24)![2B](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/0f67d394-bc93-43df-8dc0-3dc4263ca1df)
-
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/2c4597e0-5773-4050-a946-3d8943c7c2c3">
+</p>
 
 ## EOMONTH FUNCTION
 The **EOMONTH** function  is used to calculate the last day of the month for a specified number of months before or after a given date. The EOMONTH function is helpful when you need to find the end of a specific month, which can be particularly useful in financial or project management calculations.
@@ -306,8 +326,9 @@ The **EOMONTH** function  is used to calculate the last day of the month for a s
 
 The EOMONTH function is a valuable tool for various date-related calculations, especially when you need to determine due dates, report periods, or financial closing dates based on a starting date and the desired number of months.
 
-![1B](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/8a2862fc-e63d-4427-8b80-bd4f2fb8c3b1)![1E](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/1dde9168-3093-407c-a468-8e6a86afe289)
-
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/6f22e88d-d2a4-48f0-bd20-76da19e9a9eb">
+</p>
 
 # Lookup Functions
 ## LOOKUP Function
