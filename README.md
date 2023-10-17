@@ -1,5 +1,8 @@
 # Midterms_Group11_MEXE-4101
-![group-11](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/0b901445-abe7-41e7-aa9e-54a07c15c608)
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/0b901445-abe7-41e7-aa9e-54a07c15c608">
+</p>
 
 **Authors**: _Arellano, Justin Joe M., Dela Peña, Ralph Nathanael A. and Fajardo, Lenard Albert P._
 
@@ -21,7 +24,10 @@ Here's how the CEILING function works:
 2. It then rounds up to the nearest integer.
 3. Finally, it multiplies the rounded-up integer by the "significance" to give you the rounded-up result.
 
-![CEILING](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c8a89dba-3bb8-422b-a785-f5cdd20713d7)
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c8a89dba-3bb8-422b-a785-f5cdd20713d7">
+</p>
 
 The **FLOOR** function is used to round a number *"down"* to the nearest multiple of a specified significance or increment. It's a mathematical function that can be particularly useful when you want to ensure that a value is always rounded up to the nearest desired level or step.
 
