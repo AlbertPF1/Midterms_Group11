@@ -34,8 +34,6 @@ The **ISTEXT** function is used to check if a given value is a text data type.
 
 - *Syntax:* =ISTEXT(value)
 
-![image](https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2)
-
 The **ISNONTEXT** function helps to check if a cell contains text or not.
 
 - *Syntax:* =ISNONTEXT(value)
