@@ -115,14 +115,31 @@ Here's a breakdown of how the ROUND function works:
   - Example: =ISEVEN(E5) will return TRUE if the content of cell E5 is an even number, and FALSE if it's not.
  
 # Date and Time Functions
-## WEEKNUM Function
+The **"NOW" and "TODAY"** function are used to display the current date and time or just the current date, respectively. These functions are useful when you need to insert the current date and time into a cell or use them in calculations.
 
-## WEEKDAY Function
+- *Syntax:* =NOW() , =TODAY()
 
-## EDATE Function
+The "NOW" function returns the current date and time. The "TODAY" function, on the other hand, returns only the current date (without the time). 
 
-## EOMONTH Function
+Like the NOW function, the TODAY function doesn't require any arguments. It retrieves the current date from your computer's system clock and displays it in the cell.
 
-## DAY_MONTH_YEAR Function
+The TODAY function is often used to track dates or for date-related calculations where you don't need the time component.
+
+Both the NOW and TODAY functions can be particularly useful in various scenarios, including record-keeping, project management, and data analysis, where tracking or referencing the current date and time is essential.
+
+![NOW   TODAY](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/2497ce68-e4cb-4596-b64a-13ebadf57bb2)
+
+The **"DAY," "MONTH," and "YEAR"** function are used to extract the day, month, and year components, respectively, from a date value. These functions are helpful when you have a date in a cell and you want to extract specific parts of that date. 
+
+- *Syntax:* =DAY(date) , =MONTH(date), =YEAR(date)
+    - *"date"*: This  is the cell reference or a date value from which you want to extract the day, month or year.
+
+The "DAY" function is used to extract the day component from a date. The "MONTH" function is used to extract the month component from a date. The "YEAR" function is used to extract the year component from a date. 
+
+These functions are particularly useful for various data analysis and reporting tasks where you have a date field, and you want to perform calculations or create reports based on the individual components of the date, such as day, month, or year.
+
+![1D](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/06314533-0288-49c1-9edb-2cb6c08b99d9)![2D](https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/fabd8aea-6e7b-421c-8ab2-bd68ea57ae2f)
+
+
 
 # Lookup Functions
