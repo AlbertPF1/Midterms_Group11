@@ -6,8 +6,11 @@
 
 **Authors**: _Arellano, Justin Joe M., Dela Peña, Ralph Nathanael A. and Fajardo, Lenard Albert P._
 
-# Text Function
-## LENGTH Function
+<p align="center">
+  <img src="https://github.com/RalphNathanDP/Midterms_Group11/assets/144073436/798832d9-c372-4fe0-9701-61ff0538f8df">
+</p>
+
+# LENGTH Function
 The **LENGTH** function is used to determine the length of a text string.
 
 - *Syntax:* =LEN(text)
@@ -16,7 +19,7 @@ The **LENGTH** function is used to determine the length of a text string.
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/40fe013e-5d29-4a5e-993b-28cb6de5a190">
 </p>
 
-## TRIM Function
+# TRIM Function
 The **TRIM** function is used to remove extra spaces from a text string, leaving only a single space between words. 
 
 - *Syntax:* =TRIM(text)
@@ -25,7 +28,7 @@ The **TRIM** function is used to remove extra spaces from a text string, leaving
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/92311741-e1ad-45b4-b214-f807ae72c4d4">
 </p>
 
-## UPPER Function
+# UPPER Function
 The **UPPER** function is used to convert all the letters in a text string to uppercase. 
 
 - *Syntax:* =UPPER(text)
@@ -34,7 +37,7 @@ The **UPPER** function is used to convert all the letters in a text string to up
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c4367cbb-9730-4115-9634-4f5d869d364a">
 </p>
 
-## LOWER Function
+# LOWER Function
 The **LOWER** function is used to convert all the letters in a text string to lowercase. 
 
 - *Syntax:* =LOWER(text)
@@ -43,7 +46,7 @@ The **LOWER** function is used to convert all the letters in a text string to lo
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/a98ea8a6-f2ca-4ad3-9f7c-b159b0ac73f1">
 </p>
 
-## PROPER Function
+# PROPER Function
 The **PROPER** function is used to convert the first letter of each word in a text string to uppercase and all other letters to lowercase.
 
 - *Syntax:* =PROPER(text)
@@ -52,8 +55,11 @@ The **PROPER** function is used to convert the first letter of each word in a te
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/a57cefd2-301d-4af9-b469-ab2529119014">
 </p>
 
-# Math Functions
-## CEILING Function
+<p align="center">
+  <img src="https://github.com/RalphNathanDP/Midterms_Group11/assets/144073436/7ac17886-6d55-4aa9-a12e-3872093316be">
+</p>
+
+# CEILING Function
 The **CEILING** function is used to round a number *"up"* to the nearest multiple of a specified significance or increment. It's a mathematical function that can be particularly useful when you want to ensure that a value is always rounded up to the nearest desired level or step.
 
 - *Syntax:* =CEILING(number, significance)
@@ -73,7 +79,7 @@ Here's how the CEILING function works:
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c8a89dba-3bb8-422b-a785-f5cdd20713d7">
 </p>
 
-## FLOOR Function
+# FLOOR Function
 The **FLOOR** function is used to round a number *"down"* to the nearest multiple of a specified significance or increment. It's a mathematical function that can be particularly useful when you want to ensure that a value is always rounded up to the nearest desired level or step.
 
 - *Syntax:* =FLOOR(number, significance)
@@ -93,7 +99,7 @@ Here's how the FLOOR function works:
 </p>
 
 
-## EVEN Function
+# EVEN Function
 The **EVEN** function is used to round a number up to the nearest even integer. 
 - *Syntax:* =EVEN(number)
 
@@ -106,7 +112,7 @@ The EVEN function takes a single argument, which is the number you want to round
 </p>
 
 
-## ODD Function
+# ODD Function
 The **ODD** function is used to round a number up to the nearest odd integer. 
 - *Syntax:* =ODD(number)
 
@@ -119,7 +125,7 @@ The ODD function takes a single argument, which is the number you want to round 
 </p>
 
 
-## ROUND Function
+# ROUND Function
 The **ROUND** function is used to round a number to a specified number of decimal places. The ROUND function helps you control the precision of numerical values in your spreadsheets.
 - *Syntax:* =ROUND(number, num_digits)
 
@@ -141,8 +147,12 @@ Here's a breakdown of how the ROUND function works:
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/d5f08788-f3d6-4afa-abfa-41f27fa937f8">
 </p>
 
-# Logical Functions
-## IF Function
+
+<p align="center">
+  <img src="https://github.com/RalphNathanDP/Midterms_Group11/assets/144073436/3ce0bf94-5ee9-4d9e-99a2-893e22d3d7fb">
+</p>
+
+# IF Function
 The **IF** function in Excel is one of the most popular and useful functions in the program. It allows you to make a logical comparison between a value and what you expect and return a different result depending on whether the comparison is true or false.
 - *Syntax:* =IF(logical_test, value_if_true, value_if_false)
 
@@ -157,7 +167,7 @@ The **IF** function in Excel is one of the most popular and useful functions in 
 </p>
 
   
-## ISBLANK Function
+# ISBLANK Function
 The **ISBLANK** function is a logical function that checks whether a specified cell is empty or not. It returns TRUE if the cell is empty and FALSE if the cell contains any value. This includes spaces, formulas, or empty text ("").
 - *Syntax:* =ISBLANK(reference)
 
@@ -168,7 +178,7 @@ The **ISBLANK** function is a logical function that checks whether a specified c
 </p>
 
 
-## NOT Function
+# NOT Function
 The **NOT** function is a logical function that reverses the logical value of its argument. It is used to negate a logical value, meaning it converts TRUE to FALSE and FALSE to TRUE
 - *Syntax:* =NOT(logical)
 
@@ -179,7 +189,7 @@ The **NOT** function is a logical function that reverses the logical value of it
 </p>
 
 
-## SUMIF Function
+# SUMIF Function
 The **SUMIF** function in Excel adds all of the values in a range that meet a single criterion. The criterion can be a number, a text string, a date, or a logical expression.
 - *Syntax:* =SUMIF(range, criteria, sum_range)
 
@@ -193,7 +203,7 @@ The **SUMIF** function in Excel adds all of the values in a range that meet a si
 </p>
 
       
-## COUNTIF Function
+# COUNTIF Function
 The **COUNTIF** function is used to count the number of cells within a specified range that meet a given condition or criteria. It allows you to count cells based on a single condition.
 - *Syntax:* =COUNTIF(range, criteria)
 
@@ -204,9 +214,11 @@ The **COUNTIF** function is used to count the number of cells within a specified
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/144073436/708920f4-405a-4d59-a256-1643ad3f1dda">
 </p>
 
+<p align="center">
+  <img src="https://github.com/RalphNathanDP/Midterms_Group11/assets/144073436/6a97ddf6-5a72-433d-91e0-a6342c15ae9f">
+</p>
       
-# Information Functions
-## ISTEXT Function
+# ISTEXT Function
 The **ISTEXT** function is used to check if a given value is a text data type.
 
 - *Syntax:* =ISTEXT(value)
@@ -214,7 +226,7 @@ The **ISTEXT** function is used to check if a given value is a text data type.
   <img src="https://github.com/Diyastin/Midterms_Group11/assets/144225180/1abb2d86-d8cd-4d3c-a242-1ac1c41eb1d2">
 </p>
 
-## ISNONTEXT Function
+# ISNONTEXT Function
 The **ISNONTEXT** function helps to check if a cell contains text or not.
 
 - *Syntax:* =ISNONTEXT(value)
@@ -223,7 +235,7 @@ The **ISNONTEXT** function helps to check if a cell contains text or not.
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c22002c8-d5f1-41f6-ad01-7b725fa061cd">
 </p>
 
-## ISNUMBER Function
+# ISNUMBER Function
 The **ISNUMBER** function is used to check whether a given value is a number.
 
 - *Syntax:* =ISNUMBER(value)
@@ -232,7 +244,7 @@ The **ISNUMBER** function is used to check whether a given value is a number.
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/a6107dfb-3896-4498-bf97-ad895e808b15">
 </p>
 
-## ISBLANK Function
+# ISBLANK Function
 The **ISBLANK** function is used to check whether a specified cell is empty.
 
 - *Syntax:* =ISBLANK(value)
@@ -241,7 +253,7 @@ The **ISBLANK** function is used to check whether a specified cell is empty.
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/b1d8b3b5-db8b-4375-89c4-6fb49c41d93e">
 </p>
 
-## ISLOGICAL Function
+# ISLOGICAL Function
 The **ISLOGICAL** function is used to checks whether a given value is a logical value or not.
 
 - *Syntax:* =ISLOGICAL(value)
@@ -250,9 +262,12 @@ The **ISLOGICAL** function is used to checks whether a given value is a logical 
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/32929dba-29a6-4dd6-9d9c-0de911f311e6">
 </p>
 
-# Date and Time Functions
 
-## NOW AND TODAY FUNCTION
+<p align="center">
+  <img src="https://github.com/RalphNathanDP/Midterms_Group11/assets/144073436/fdabb857-f693-42c3-a52b-eaa341397aae">
+</p>
+
+# NOW AND TODAY FUNCTION
 The **"NOW" and "TODAY"** function are used to display the current date and time or just the current date, respectively. These functions are useful when you need to insert the current date and time into a cell or use them in calculations.
 
 - *Syntax:* =NOW() , =TODAY()
@@ -269,7 +284,7 @@ Both the NOW and TODAY functions can be particularly useful in various scenarios
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/2497ce68-e4cb-4596-b64a-13ebadf57bb2">
 </p>
 
-## DAY, MONTH, AND YEAR FUNCTION
+# DAY, MONTH, AND YEAR FUNCTION
 The **"DAY," "MONTH," and "YEAR"** function are used to extract the day, month, and year components, respectively, from a date value. These functions are helpful when you have a date in a cell and you want to extract specific parts of that date. 
 
 - *Syntax:* =DAY(date) , =MONTH(date), =YEAR(date)
@@ -283,7 +298,7 @@ These functions are particularly useful for various data analysis and reporting 
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/432cecfd-7dd3-4fa5-bff9-e82c7e1fbfbe">
 </p>
 
-## WEEKNUM FUNCTION
+# WEEKNUM FUNCTION
 The **WEEKNUM** function is used to determine the week number for a specified date. The WEEKNUM function returns the week number within the year for a given date.
 
 - *Syntax:* =WEEKNUM(date, [return_type])
@@ -302,7 +317,7 @@ The WEEKNUM function is useful in various business and project management scenar
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/da0065af-c72f-42db-a4dc-973aa1ab6688">
 </p>
 
-## EDATE FUNCTION
+# EDATE FUNCTION
 The **EDATE** function  is used to calculate the date that is a specified number of months before or after a given date. The function is particularly useful when you need to work with dates in financial or project management calculations.
 - *Syntax:* =EDATE(start_date, months)
 
@@ -316,7 +331,7 @@ The EDATE function is versatile and is commonly used in various financial calcul
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/2c4597e0-5773-4050-a946-3d8943c7c2c3">
 </p>
 
-## EOMONTH FUNCTION
+# EOMONTH FUNCTION
 The **EOMONTH** function  is used to calculate the last day of the month for a specified number of months before or after a given date. The EOMONTH function is helpful when you need to find the end of a specific month, which can be particularly useful in financial or project management calculations.
 - *Syntax:* =EOMONTH(start_date, months)
 
@@ -330,8 +345,11 @@ The EOMONTH function is a valuable tool for various date-related calculations, e
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/6f22e88d-d2a4-48f0-bd20-76da19e9a9eb">
 </p>
 
-# Lookup Functions
-## LOOKUP Function
+<p align="center">
+  <img src="https://github.com/RalphNathanDP/Midterms_Group11/assets/144073436/c662bd76-7c25-4dbe-9c83-911f0c2621c0">
+</p>
+
+# LOOKUP Function
 The **LOOKUP** function is used to search for a value in a single row or column and return a corresponding value from the same position in another row or column.
  - *Syntax:* =LOOKUP(lookup_value, lookup_vector, [result_vector])
 
@@ -345,7 +363,7 @@ The **LOOKUP** function is used to search for a value in a single row or column 
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/9db5fce1-196d-4c27-a062-5be94b2f78b5">
 </p>
 
-## MATCH Function
+# MATCH Function
 The **MATCH** function searches for a specified item in a range of cells, and then returns the relative position of that item in the range.
 - *Syntax:* =MATCH(lookup_value, lookup_array, [match_type])
 
@@ -359,7 +377,7 @@ The **MATCH** function searches for a specified item in a range of cells, and th
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/e1cc1b76-daac-4a44-ac04-91bf5a7db72a">
 </p>
 
-## VLOOKUP Function
+# VLOOKUP Function
 The **VLOOKUP** function is used to search for a value in the first column of a table or an array, and then return a value in the same row from a specified column. The "V" in VLOOKUP stands for "vertical," indicating that the function searches vertically (in columns) for the specified value. VLOOKUP is incredibly useful when you have a large dataset and you want to find specific information based on a known value.
 - *Syntax:* =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
 
@@ -373,7 +391,7 @@ The **VLOOKUP** function is used to search for a value in the first column of a 
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/1bdb1a9c-393d-47dd-b9c8-cd7d1bf208c3">
 </p>
 
-## COLUMNS Function
+# COLUMNS Function
 The **COLUMNS** function is used to count the number of columns in a specified array or range of cells. This function can be particularly useful when you want to know how many columns are there in a specific range or when you want to perform calculations based on the number of columns in a range.
 - *Syntax:* =COLUMNS(array)
 
@@ -383,7 +401,7 @@ The **COLUMNS** function is used to count the number of columns in a specified a
   <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c5fcaf78-dab3-4232-8a6e-27b1c4fd8369">
 </p>
 
-## INDIRECT Function
+# INDIRECT Function
 The **INDIRECT** function in Excel is used to convert a text string representing a cell reference or range name into an actual reference. In other words, it allows you to create a reference from text. This can be particularly useful in situations where you have a cell containing a reference as text, and you want to use that reference in a formula.
 - *Syntax:* =INDIRECT(ref_text, [a1])
 
