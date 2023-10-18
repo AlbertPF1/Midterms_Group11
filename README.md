@@ -332,7 +332,7 @@ The EOMONTH function is a valuable tool for various date-related calculations, e
 
 # Lookup Functions
 ## LOOKUP Function
-
+loo
 ## MATCH Function
 
 ## VLOOKUP Function
