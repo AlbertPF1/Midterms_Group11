@@ -340,7 +340,11 @@ The **LOOKUP** function is used to search for a value in a single row or column 
     - *"lookup_vector"*: is a range that contains only one row or one column. The values in lookup_vector can be text, numbers, or logical values.
   
     - *"result_vector"*: is a range that contains only one row or column. The result_vector argument must be the same size as lookup_vector. It has to be the same size.
-      
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/9db5fce1-196d-4c27-a062-5be94b2f78b5">
+</p>
+
 ## MATCH Function
 The **MATCH** function searches for a specified item in a range of cells, and then returns the relative position of that item in the range.
 - *Syntax:* =MATCH(lookup_value, lookup_array, [match_type])
@@ -351,6 +355,9 @@ The **MATCH** function searches for a specified item in a range of cells, and th
   
     - *"match_type"*: The number -1, 0, or 1. The match_type argument specifies how Excel matches lookup_value with values in lookup_array. The default value for this argument is 1. 1 MATCH finds the largest value that is less than or equal to lookup_value. 0 MATCH finds the first value that is exactly equal to lookup_value. -1 MATCH finds the smallest value that is greater than or equal tolookup_value.
   
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/e1cc1b76-daac-4a44-ac04-91bf5a7db72a">
+</p>
 
 ## VLOOKUP Function
 The **VLOOKUP** function is used to search for a value in the first column of a table or an array, and then return a value in the same row from a specified column. The "V" in VLOOKUP stands for "vertical," indicating that the function searches vertically (in columns) for the specified value. VLOOKUP is incredibly useful when you have a large dataset and you want to find specific information based on a known value.
@@ -362,11 +369,19 @@ The **VLOOKUP** function is used to search for a value in the first column of a 
     - *"col_index_num*": The column number in the table_array from which to retrieve the value to return.
     - *"[range_lookup]*": This is an optional argument. If TRUE or omitted, an approximate match is returned. If FALSE, an exact match is required. In most cases, you'll want to use FALSE to ensure you get an exact match.
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/1bdb1a9c-393d-47dd-b9c8-cd7d1bf208c3">
+</p>
+
 ## COLUMNS Function
 The **COLUMNS** function is used to count the number of columns in a specified array or range of cells. This function can be particularly useful when you want to know how many columns are there in a specific range or when you want to perform calculations based on the number of columns in a range.
 - *Syntax:* =COLUMNS(array)
 
     - *"array"*: This is the range of cells or an array for which you want to count the number of columns.
+
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/c5fcaf78-dab3-4232-8a6e-27b1c4fd8369">
+</p>
 
 ## INDIRECT Function
 The **INDIRECT** function in Excel is used to convert a text string representing a cell reference or range name into an actual reference. In other words, it allows you to create a reference from text. This can be particularly useful in situations where you have a cell containing a reference as text, and you want to use that reference in a formula.
@@ -375,11 +390,45 @@ The **INDIRECT** function in Excel is used to convert a text string representing
     - *"ref_text: This is the text string that contains the reference to a cell or a range of cells.
 [a1]: This is an optional argument. If a1 is TRUE or omitted, ref_text is interpreted as an A1-style reference. If a1 is FALSE, ref_text is interpreted as an R1C1-style reference.
 
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/bfb90882-fe30-4bb8-8207-af11c55f9429">
+</p>
 
 # DASHBOARD
+
+These dashboards below were based on the E-Commerce Sales Dataset Analyzing and Maximizing Online Business Performance. This Dataset is about the Amazon Sale report in India.
 <p align="center">
   <img src="https://github.com/RalphNathanDP/Midterms_Group11/assets/144073436/e66a53fb-bf4b-4929-8324-b99847bbe236">
 </p>
 
+## Total Sales per State
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/b488348f-7654-4ac4-99f3-0ac814f3a550">
+</p>
+
+## Order Status per State  
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/57ba6f4c-f041-42c3-acb4-af31474a6d14">
+</p>
+
+## Total Orders per Category
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/bb172c2c-019f-49aa-a29a-f5a3a05041cb">
+</p>
+
+## Number of Orders per Date
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/a87d798d-e3a8-4747-8166-93d38acb2610">
+</p>
+
+## Fulfilment per Category
+<p align="center">
+  <img src="https://github.com/AlbertPF1/Midterms_Group11/assets/143917422/684b8db0-c0fb-47c4-add6-77644fd6a2c6">
+</p>
 
 # References:
+E-Commerce Sales Dataset. (2022, December 3). Kaggle. https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data?select=Amazon+Sale+Report.csv&fbclid=IwAR0GA7NXxkMfcMWKtxGh0I7Jt5DP9NMAQCT5QD6h8B1wTcgk1BD670148Wk
+
+JumpFly, Inc. (2022, December 14). Amazon-com-portable-network-graphics-Transparency-logo-image-PNG-faVPng-8Q7I6DHJBRCNAYYTKHXLQVKDb | JumpFly, Inc. https://www.jumpfly.com/homepage-may-2021/amazon-com-portable-network-graphics-transparency-logo-image-png-favpng-8q7i6dhjbrcnayytkhxlqvkdb/?fbclid=IwAR0tkQSnmHwJ_MBzD8q8gNWMLBTdP-QzZ-d2tb4UgMN6HwiSg2MNmg06Xak
+
+Amazon-Logo-Transparent-PNG | WOSU Public Media. (n.d.). https://wosu.org/television/broad-high-presents/attachment/amazon-logo-transparent-png/?fbclid=IwAR2AgR2TOZrqpK6RlgYblZMQOJZfJ_h-XJ0RLRKs0z7vBDzSxmsvOuaEQd0
