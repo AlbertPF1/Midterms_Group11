@@ -416,7 +416,7 @@ The **INDIRECT** function in Excel is used to convert a text string representing
 
 These dashboards below were based on the E-Commerce Sales Dataset Analyzing and Maximizing Online Business Performance. This Dataset is about the Amazon Sale report in India.
 <p align="center">
-  <img src="https://github.com/RalphNathanDP/Midterms_Group11/assets/144073436/e66a53fb-bf4b-4929-8324-b99847bbe236">
+  <img src="https://github.com/Diyastin/Midterms_Group11/assets/144225180/8f57e9b8-70c8-44a0-be1c-865bba4609fe">
 </p>
 
 ## Total Sales per State
